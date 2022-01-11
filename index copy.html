@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>TAMAWAL Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <!-- Common Styles Starts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/structure.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/highlight/styles/monokai-sublime.css" rel="stylesheet" type="text/css" />
+    <!-- Common Styles Ends -->
+    <!-- Common Icon Starts -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- Common Icon Ends -->
+    <!-- Page Level Plugin/Style Starts -->
+    <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/dashboard/dashboard_1.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/flatpickr/flatpickr.css" rel="stylesheet" type="text/css">
+    <link href="plugins/flatpickr/custom-flatpickr.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/elements/tooltip.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/forms/form-widgets.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/forms/multiple-step.css" rel="stylesheet" type="text/css">
+    <!-- Page Level Plugin/Style Ends -->
+
+</head>
+<body>
+    <!-- Loader Starts -->
+    <div id="load_screen">
+        <div class="boxes">
+            <div class="box">
+                <div></div><div></div><div></div><div></div>
+            </div>
+            <div class="box">
+                <div></div><div></div><div></div><div></div>
+            </div>
+            <div class="box">
+                <div></div><div></div><div></div><div></div>
+            </div>
+            <div class="box">
+                <div></div><div></div><div></div><div></div>
+            </div>
+        </div>
+        <p class="xato-loader-heading">TAMAWAL</p>
+    </div>
+    <!--  Loader Ends -->
+    <!--  Navbar Starts  -->
+    <div class="header-container fixed-top">
+        <header class="header navbar navbar-expand-sm">
+            <ul class="navbar-item theme-brand flex-row  text-center">
+                <li class="nav-item theme-logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" class="navbar-logo" alt="logo">
+                    </a>
+                </li>
+                <li class="nav-item theme-text">
+                    <a href="index.html" class="nav-link"> TAMAWAL </a>
+                </li>
+            </ul>
+            <ul class="navbar-item flex-row ml-md-0 ml-auto">
+                <li class="nav-item align-self-center search-animated">
+                    <i class="las la-search toggle-search"></i>
+                    <form class="form-inline search-full form-inline search" action="#" role="search">
+                        <div class="search-bar">
+                            <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Search here">
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item dropdown language-dropdown d-none d-lg-flex">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle d-flex align-center text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mega Menu  <i class="las la-angle-down font-11 ml-1"></i>
+                    </a>
+                    <div class="dropdown-menu megamenu">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5 class="font-17 mt-0">Applications</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li class="font-15 mb-1"><a href="apps_ecommerce.html">Quick Loans</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_chat.html">Premium Loans</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_mail.html">Reserved Loans</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_notes.html">Disbursed Loans</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_file_manager.html">Scheme Manager</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_calendar.html">Loan Tracking</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="font-17 mt-0">Other</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li class="font-15 mb-1"><a href="pages_contact_us.html">Contact Us</a></li>
+                                            <li class="font-15 mb-1"><a href="pages_faq.html">FAQ</a></li>
+                                            <li class="font-15 mb-1"><a href="pages_helpdesk.html">Helpdesk</a></li>
+                                            <li class="font-15 mb-1"><a href="apps_ecommerce_customers.html">Customers</a></li>
+                                            <li class="font-15 mb-1"><a href="pages_profile_edit.html">Settings</a></li>
+                                            <li class="font-15 mb-1"><a href="pages_privacy_policy.html">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="p-lg-1">
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-1.jpg" alt="slack">
+                                                <span>Kafalah</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-2.jpg" alt="Github">
+                                                <span>Monshaat</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-3.jpg" alt="dribbble">
+                                                <span>Ijarah</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-4.jpg" alt="bitbucket">
+                                                <span>Murabaha</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-5.jpg" alt="dropbox">
+                                                <span>Tawarruq</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/img/company-6.jpg" alt="G Suite">
+                                                <span>Credit Card</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-item flex-row ml-md-auto">
+                <li class="nav-item dropdown fullscreen-dropdown d-none d-lg-flex">
+                    <a class="nav-link full-screen-mode" href="javascript:void(0);">
+                        <i class="las la-compress" id="fullScreenIcon"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown language-dropdown">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="las la-language"></i>
+                    </a>
+                    <div class="dropdown-menu position-absolute" aria-labelledby="language-dropdown">
+                        <a class="dropdown-item d-flex" href="javascript:void(0);">
+                            <img src="assets/img/flag/usa-flag.png" class="flag-width" alt="flag">
+                            <span class="align-self-center">&nbsp;English</span>
+                        </a>
+                        <a class="dropdown-item d-flex" href="javascript:void(0);">
+                            <img src="assets/img/flag/saudi-arabia-flag.png" class="flag-width" alt="flag">
+                            <span class="align-self-center">&nbsp;Arabic</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown message-dropdown">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="messageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="las la-envelope"></i>
+                    </a>
+                    <div class="dropdown-menu position-absolute" aria-labelledby="messageDropdown">
+                        <div class="nav-drop is-notification-dropdown">
+                            <div class="inner">
+                                <div class="nav-drop-header">
+                                    <span class="text-black font-12 strong">3 new Tracking</span>
+                                    <a class="text-muted font-12" href="#">
+                                        Mark all read
+                                    </a>
+                                </div>
+                                <div class="nav-drop-body account-items pb-0">
+                                    <a class="account-item">
+                                        <div class="media">
+                                            <div class="user-img">
+                                                <img class="rounded-circle avatar-xs" src="assets/img/profile-11.jpg" alt="profile">
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="">
+                                                    <h6 class="text-primary font-13 mb-0 strong">Jennifer Queen</h6>
+                                                    <p class="m-0 mt-1 font-10 text-muted">Documents Required</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item marked-read">
+                                        <div class="media">
+                                            <div class="user-img">
+                                                <img class="rounded-circle avatar-xs" src="assets/img/profile-10.jpg" alt="profile">
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="">
+                                                    <h6 class="text-primary font-13 mb-0 strong">Lara Smith</h6>
+                                                    <p class="m-0 mt-1 font-10 text-muted">Pending Payment</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item marked-read">
+                                        <div class="media">
+                                            <div class="user-img">
+                                                <img class="rounded-circle avatar-xs" src="assets/img/profile-9.jpg" alt="profile">
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="">
+                                                    <h6 class="text-primary font-13 mb-0 strong">Victoria Williamson</h6>
+                                                    <p class="m-0 mt-1 font-10 text-muted">Contract Signing</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <hr class="account-divider">
+                                    <div class="text-center">
+                                        <a class="text-primary strong font-13" href="apps_mail.html">View All</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown notification-dropdown">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle position-relative" id="notificationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="las la-bell"></i>
+                        <div class="blink">
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu position-absolute" aria-labelledby="notificationDropdown">
+                        <div class="nav-drop is-notification-dropdown">
+                            <div class="inner">
+                                <div class="nav-drop-header">
+                                    <span class="text-black font-12 strong">5 Notifications</span>
+                                    <a class="text-muted font-12" href="#">
+                                        Clear All
+                                    </a>
+                                </div>
+                                <div class="nav-drop-body account-items pb-0">
+                                    <a class="account-item" href="apps_ecommerce_orders.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-box font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">2 New orders placed</h6>
+                                                <p class="m-0 mt-1 font-10 text-muted">10 sec ago</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="javascript:void(0)">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-user-plus font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">New User registered</h6>
+                                                <p class="m-0 mt-1 font-10 text-muted">5 minute ago</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="apps_tickets.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-grin-beam font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">21 Queries solved</h6>
+                                                <p class="m-0 mt-1 font-10 text-muted">1 hour ago</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="javascript:void(0)">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-cloud-download-alt font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">New update available</h6>
+                                                <p class="m-0 mt-1 font-10 text-muted">1 day ago</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <hr class="account-divider">
+                                    <div class="text-center">
+                                        <a class="text-primary strong font-13" href="pages_notifications.html">View All</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown user-profile-dropdown">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <img src="assets/img/profile-16.jpg" alt="avatar">
+                    </a>
+                    <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
+                        <div class="nav-drop is-account-dropdown">
+                            <div class="inner">
+                                <div class="nav-drop-header">
+                                    <span class="text-primary font-15">Welcome Admin !</span>
+                                </div>
+                                <div class="nav-drop-body account-items pb-0">
+                                    <a id="profile-link" class="account-item" href="pages_profile.html">
+                                        <div class="media align-center">
+                                            <div class="media-left">
+                                                <div class="image">
+                                                    <img class="rounded-circle avatar-xs" src="assets/img/profile-16.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">Sara</h6>
+                                                <small>Britannia</small>
+                                            </div>
+                                            <div class="media-right">
+                                                <i data-feather="check"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="pages_profile.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-user font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">My Account</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="pages_timeline.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-briefcase font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">My Activity</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item settings">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-cog font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">Settings</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="account-item" href="auth_lock_screen_2.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-lock font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong">Lock Screen</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <hr class="account-divider">
+                                    <a class="account-item" href="auth_login_3.html">
+                                        <div class="media align-center">
+                                            <div class="icon-wrap">
+                                                <i class="las la-sign-out-alt font-20"></i>
+                                            </div>
+                                            <div class="media-content ml-3">
+                                                <h6 class="font-13 mb-0 strong ">Logout</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-item flex-row">
+                <li class="nav-item dropdown header-setting">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle rightbarCollapse" data-placement="bottom">
+                        <i class="las la-sliders-h"></i>
+                    </a>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <!--  Navbar Ends  -->
+    <!--  Main Container Starts  -->
+    <div class="main-container" id="container">
+        <div class="overlay"></div>
+        <div class="search-overlay"></div>
+        <div class="rightbar-overlay"></div>
+        <!--  Sidebar Starts  -->
+        <div class="sidebar-wrapper sidebar-theme"  >
+            <nav id="sidebar">
+                <ul class="list-unstyled menu-categories" id="accordionExample">
+                    <li class="menu">
+                        <a href="#dashboard" data-active="true" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                            <div class="">
+                                <i class="las la-home"></i>
+                                <span>Dashboards</span>
+                            </div>
+                            <div>
+                                <i class="las la-angle-right sidemenu-right-icon"></i>
+                            </div>
+                        </a>
+                        <ul class="collapse submenu list-unstyled collapse show" id="dashboard" data-parent="#accordionExample">
+                            <li class="active">
+                                <a data-active="true" href="index.html"> Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="pages_notifications.html"> Notifications </a>
+                            </li>
+
+                            <li>
+                                <a href="pages_profile.html"> Profile </a>
+                            </li>
+                            <li>
+                                <a href="pages_privacy_policy.html"> Privacy Policy </a>
+                            </li>
+
+                           
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#app" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <div class="">
+                                <i class="lab la-medapps"></i>
+                                <span>Application</span>
+                            </div>
+                            <div>
+                                <i class="las la-angle-right sidemenu-right-icon"></i>
+                            </div>
+                        </a>
+                        <ul class="collapse submenu list-unstyled" id="app" data-parent="#accordionExample">
+
+                            <li>
+                                <a href="forms_multiple_step.html"> Start an Application </a>
+                            </li>
+
+                            <li>
+                                <a href="apps_invoice.html"> Document<br /> Management </a>
+                            </li>
+                            <li>
+                                <a href="apps_invoice.html"> Loan Calculator </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#pages" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <div class="">
+                                <i class="las la-file"></i>
+                                <span>Other Services</span>
+                            </div>
+                            <div>
+                                <i class="las la-angle-right sidemenu-right-icon"></i>
+                            </div>
+                        </a>
+                        <ul class="collapse submenu list-unstyled" id="pages" data-parent="#accordionExample">
+                           
+
+                            <li>
+                                <a href="pages_contact_us.html"> Contact Form </a>
+                            </li>
+
+                           
+
+                            <li>
+                                <a href="pages_faq_2.html"> FAQ  </a>
+                            </li>
+                            <li>
+                                <a href="pages_helpdesk.html"> Helpdesk </a>
+                            </li>
+                           
+                          
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--  Sidebar Ends  -->
+        <!--  Content Area Starts  -->
+        <div id="content" class="main-content">
+            <!--  Navbar Starts / Breadcrumb Area  -->
+            <div class="sub-header-container"  style="">
+                <header class="header navbar navbar-expand-sm">
+                    <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom">
+                        <i class="las la-bars"></i>
+                    </a>
+                    <ul class="navbar-nav flex-row">
+                        <li>
+                            <div class="page-header">
+                                <nav class="breadcrumb-one" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item active"><a href="javascript:void(0);">Dashboard</a></li>
+
+                                    </ol>
+                                </nav>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex align-center ml-auto right-side-filter">
+                        <li class="nav-item more-dropdown">
+                            <div class="input-group input-group-sm">
+                                <input id="rangeCalendarFlatpickr" class="form-control flatpickr flatpickr-input active" type="text" placeholder="Select Date">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-primary border-primary" id="basic-addon2">
+                                        <i class="lar la-calendar"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item more-dropdown">
+                            <a href="javascript: void(0);" data-original-title="Reload Data" data-placement="bottom" class="btn btn-primary dash-btn btn-sm ml-2 bs-tooltip">
+                                <i class="las la-sync"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </header>
+            </div>
+            <!--  Navbar Ends / Breadcrumb Area  -->
+            <!-- Main Body Starts -->
+         
+<div style="width: 40rem; height: 50rem;  margin: 0px auto;" >
+    <div class="col-lg-12 layout-spacing" style="">
+        <div class="statbox widget box box-shadow mb-4" style="background-image: url(./assets/img/walkBG.png); background-size: cover; height: 50rem;">
+            <div class="widget-heasder">
+                <div class="row">
+                    
+                </div>
+            </div>
+            <div class="widget-content widget-content-area" style="background-color: transparent;">
+                <div class="form-group row" style="background-color: transparent;">
+                    <div class="col-lg-12 col-sm-12" style="background-color: transparent;">
+                        <div class="card multiple-form-two px-0 pb-0 mb-3" style="background-color: transparent;">
+                           <form id="msform" style="background-color: transparent;">
+                                <div class="progress walk_progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                                    role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div> <br> 
+                                <fieldset style="background-color: transparent;">
+                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12 head_ModalWrap">
+                                        <h5 class="text-center"><strong class="Modal_header">Welcome To Tamawal</strong></h5>
+                                        <p class="text-center Modal_started" >Getting Started</p>
+                                        
+                                    </div>
+                                    <img src="./assets/img/Walkthrough/Walk1.png" class="Walk_img1" alt="">
+                                      <p class="Walk_text">Hey There! Thanks for Joining our Community. 
+                                          Click “Start Now” to take a quick app tour 
+                                          and how to start applying for loans</p>
+                                    <input type="button" name="next" class="next action-button Walk_button1" value="Next" />
+                                </fieldset>
+                                <fieldset>
+                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12 head_ModalWrap">
+                                        <h5 class="text-center"><strong class="Modal_header">Welcome To Tamawal</strong></h5>
+                                        <p class="text-center Modal_started" >Getting Started</p>
+                                        
+                                    </div>
+                                    <img src="./assets/img/Walkthrough/Wk2.png" class="Walk_img2" alt="">
+                                      <p class="Walk_text Walk_text2">Hey There! Thanks for Joining our Community. 
+                                          Click “Start Now” to take a quick app tour 
+                                          and how to start applying for loans</p>
+                                  <div class="walk_navigation">
+                                    <input type="button" name="previous" class="previous action-button-previous btn btn-outline-primary" value="Previous" />
+                                    <input type="button" name="next" class="next action-button btn btn-primary" value="Next" />
+                                  </div>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="form-card">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <h5 class="fs-title mb-4">Image Upload:</h2>
+                                            </div>
+                                            <div class="col-5">
+                                                <h2 class="steps">Step 3 - 4</h2>
+                                            </div>
+                                        </div> 
+                                        <div class="attached-files">
+                                            <img id="image-preview" width="320">
+                                        </div>
+                                        <label for="file-upload" class="custom-file-upload mb-0">
+                                            <a title="Attach a file" class="mr-2 pointer text-primary">
+                                                <i class="las la-paperclip font-20"></i>
+                                                <span class="font-17">Click here to attach an image</span>
+                                            </a>
+                                        </label>
+                                        <input id="file-upload" name='upload_cont_img' type="file" accept="image/*" style="display:none;" onchange="handleFileChange()">
+                                    </div> 
+                                    <input type="button" name="previous" class="previous action-button-previous btn btn-outline-primary" value="Previous" />
+                                    <input type="button" name="next" class="next action-button btn btn-primary" value="Next" />
+                                </fieldset>
+                             
+                                <fieldset>
+                                    <div class="form-card">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <h5 class="fs-title mb-4">Personal Information:</h2>
+                                            </div>
+                                            <div class="col-5">
+                                                <h2 class="steps">Step 2 - 4</h2>
+                                            </div>
+                                        </div> 
+                                        <label class="fieldlabels">First Name</label> 
+                                        <input type="text" name="fname" placeholder="" class="form-control mb-3"/> 
+                                        <label class="fieldlabels">Last Name</label> 
+                                        <input type="text" name="lname" placeholder="" class="form-control mb-3"/> 
+                                        <label class="fieldlabels">Contact No</label> 
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="las la-phone-volume font-17"></i></span>
+                                            </div>
+                                            <input type="text" name="phno" placeholder=""  class="form-control" /> 
+                                        </div>
+                                        <label class="fieldlabels">Alternate Contact No</label> 
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="las la-phone font-17"></i></span>
+                                            </div>
+                                            <input type="text" name="phno_2" placeholder="" class="form-control" />
+                                        </div>
+                                    </div> 
+                                    <input type="button" name="previous" class="previous action-button-previous btn btn-outline-primary" value="Previous" />
+                                    <input type="button" name="next" class="next action-button btn btn-primary" value="Next" />
+                                </fieldset>
+                                <fieldset>
+                                    <div class="form-card">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <h5 class="fs-title mb-4">Image Upload:</h2>
+                                            </div>
+                                            <div class="col-5">
+                                                <h2 class="steps">Step 3 - 4</h2>
+                                            </div>
+                                        </div> 
+                                        <div class="attached-files">
+                                            <img id="image-preview" width="320">
+                                        </div>
+                                        <label for="file-upload" class="custom-file-upload mb-0">
+                                            <a title="Attach a file" class="mr-2 pointer text-primary">
+                                                <i class="las la-paperclip font-20"></i>
+                                                <span class="font-17">Click here to attach an image</span>
+                                            </a>
+                                        </label>
+                                        <input id="file-upload" name='upload_cont_img' type="file" accept="image/*" style="display:none;" onchange="handleFileChange()">
+                                    </div> 
+                                    <input type="button" name="previous" class="previous action-button-previous btn btn-outline-primary" value="Previous" />
+                                    <input type="button" name="next" class="next action-button btn btn-primary" value="Next" />
+                                </fieldset>
+                                <!-- <fieldset>
+                                    <div class="form-card">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <h5 class="fs-title mb-4">Finish:</h2>
+                                            </div>
+                                            <div class="col-5">
+                                                <h2 class="steps">Step 4 - 4</h2>
+                                            </div>
+                                        </div> <br><br>
+                                        <h5 class="fs-title mb-4 text-center">Congrats !</h5><br>
+                                        <div class="row justify-content-center">
+                                            <div class="col-3"> 
+                                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                                            </div>
+                                        </div> <br><br>
+                                        <div class="row justify-content-center">
+                                            <div class="col-7 text-center">
+                                                <p>You Have Successfully Signed Up</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="col-lg-6 layout-spacing">
+                <div class="statbox widget box box-shadow">
+                    <div class="widget-header">
+                        <div class="row">
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                <h4 class="text-center">Scrollable modal</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-constent widget-contesnt-area">            
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary mb-2 mr-2" data-toggle="modal" data-target="#scrollableModal">Launch Modal</button>
+                        </div>
+                        <div id="scrollableModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="">Scrollable modal</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <i class="las la-times"></i>
+                                    </button>
+                                </div>
+                                <div class="modal-body"><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p></div>
+                                <div class="modal-footer">
+                                    <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                                    <button type="button" class="btn btn-primary">Save</button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="myLargeModalLabel">Large</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <i class="las la-times"></i>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="modal-text">Mauris mi tellus, pharetra vel mattis sed, tempus ultrices eros. Phasellus egestas sit amet velit sed luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Vivamus ultrices sed urna ac pulvinar. Ut sit amet ullamcorper mi.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                                        <button type="button" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="mySmallModalLabel">Small</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <i class="las la-times"></i>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="modal-text">Mauris mi tellus, pharetra vel mattis sed, tempus ultrices eros. Phasellus egestas sit amet velit sed luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Vivamus ultrices sed urna ac pulvinar. Ut sit amet ullamcorper mi.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                                        <button type="button" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-px-spacing">
+                <div class="row layout-top-spacing">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 layout-spacing">
+
+                        <div class="widget widget-chart-one">
+                            <div class="widget-heading">
+                                <h5 class="">Start Now and Get an Offer</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="d-flex justify-content-between">
+                                    <p class="font-35 text-warning">250,000 SAR - 15,000,000 SAR</p>
+                                    <i class="lar la-chart-bar font-45 text-warning"></i>
+                                </div>
+                                <p>Get an offer upto 15 Million</p>
+                                <a class="btn btn-sm btn-warning">Start your Application</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="widget widget-chart-one">
+                            <div class="widget-heading">
+                                <h5 class="">Simulate your Repayment Plan</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="d-flex justify-content-between">
+                                    <p class="font-35 text-success-teal">12-60 Installments</p>
+                                    <i class="lar la-chart-bar font-45 text-success-teal"></i>
+                                </div>
+                                <p>Adjust the Rate from 1.00 - 15.00</p>
+                                <a class="btn btn-sm btn-primary">Loan Calculator</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="widget widget-chart-two">
+                                    <div class="widget-heading">
+                                        <h5 class="">Your Order List</h5>
+                                    </div>
+                                    <div class="widget-content mt-4">
+                                        <div class="table-responsive">
+                                            <table class="table no-border mb-4">
+                                                <thead>
+                                                    <tr class="text-center">
+                                                        <th class="p-0" style="width: 50px">No.</th>
+                                                        <th class="p-0" style="min-width: 150px">Product Type</th>
+                                                        <th class="p-0" style="min-width: 160px">Requested Amount</th>
+                                                        <th class="p-0" style="min-width: 100px">Status</th>
+                                                        <th class="p-0" style="min-width: 40px">Go to</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                1
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-dark strong">Ijarah Product</a>
+                                                            <span class="text-muted d-block">Car Financing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="text-muted strong">
+                                                                1,000,000
+                                                            </span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="badge badge-primary">Approved</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-primary font-30 arrow-right-hover">
+                                                                <i class="las la-arrow-right"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                1
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-dark strong">Ijarah Product</a>
+                                                            <span class="text-muted d-block">Car Financing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="text-muted strong">
+                                                                1,000,000
+                                                            </span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="badge badge-warning">Pending</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-primary font-30 arrow-right-hover">
+                                                                <i class="las la-arrow-right"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                1
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-dark strong">Ijarah Product</a>
+                                                            <span class="text-muted d-block">Car Financing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="text-muted strong">
+                                                                1,000,000
+                                                            </span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="badge badge-danger">Failed</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-primary font-30 arrow-right-hover">
+                                                                <i class="las la-arrow-right"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                1
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-dark strong">Ijarah Product</a>
+                                                            <span class="text-muted d-block">Car Financing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="text-muted strong">
+                                                                1,000,000
+                                                            </span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="badge badge-info">Processing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-primary font-30 arrow-right-hover">
+                                                                <i class="las la-arrow-right"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                1
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-dark strong">Ijarah Product</a>
+                                                            <span class="text-muted d-block">Car Financing</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="text-muted strong">
+                                                                1,000,000
+                                                            </span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="badge badge-success-teal">Completed</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#" class="text-primary font-30 arrow-right-hover">
+                                                                <i class="las la-arrow-right"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <p class="font-13 text-center mt-0 mb-3 text-muted">
+                                            <a class="text-primary" href="javascript:void(0);">Click here</a> to see more details
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 layout-spacing">
+                        <div class="widget widget-three add-project">
+                            <div class="widget-heading mb-0">
+                                <h5>Ongoing Tracking</h5>
+                                <span class="w-numeric-title">Order Under Processing</span>
+                            </div>
+                            <div class="widget-content">
+                                <ul class="task-lists m-0 p-0 mt-4">
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-1.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order Verified by Tamawal Operator</h6>
+                                            <p class="mb-0 font-size-12">Feb 14, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-2.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order Available for Offers</h6>
+                                            <p class="mb-0 font-size-12">Feb 12, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-3.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order Locked by Riyadh Bank</h6>
+                                            <p class="mb-0 font-size-12">Feb 10, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-4.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order Data Entry by Bank User</h6>
+                                            <p class="mb-0 font-size-12">Feb 12, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-4.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order AML Checked by Bank User</h6>
+                                            <p class="mb-0 font-size-12">Feb 12, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 align-items-center">
+                                        <div class="user-img img-fluid"><img src="assets/img/profile-4.jpg" alt="story-img" class="rounded-circle avatar-sm"></div>
+                                        <div class="media-support-info ml-3">
+                                            <h6 class="mb-0">Order Credit Verification by Bank User</h6>
+                                            <p class="mb-0 font-size-12">Feb 12, 2020</p>
+                                        </div>
+                                    </li>
+                                    <li class="text-center">
+                                        <a class="btn btn-sm btn-primary">Go to Order Tracking</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-8 layout-spacing">
+                        <div class="statbox widget box box-shadow">
+                            <div id="accordionBasic" class="widget-header">
+                                <div class="row">
+                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                        <h4>How to start?</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-content widget-content-area">
+                                <div id="toggleAccordionWithIcon" class="basic-accordion-icon">
+                                    <div class="card">
+                                        <div class="card-header" id="basicAccordionIconheadingOne">
+                                            <section class="mb-0 mt-0">
+                                                <div role="menu" class="collapsed" data-toggle="collapse" data-target="#basicAccordionIconOne" aria-expanded="true" aria-controls="basicAccordionIconOne">
+                                                    <i class="las la-home font-20"></i> Step #1  <div class="icons"><i class="las la-angle-down"></i></div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div id="basicAccordionIconOne" class="collapse" aria-labelledby="basicAccordionIconheadingOne" data-parent="#toggleAccordionWithIcon">
+                                            <div class="card-body">
+                                                <div class="media">
+                                                    <img class="mr-3 rounded-circle img-thumbnail" src="assets/img/profile-13.jpg" alt="Generic placeholder image">
+                                                    <div class="media-body">
+                                                        <h5 class="mt-0">Greetings from Tamawal</h5>
+                                                        Let's get you started, You can iniate an Application by clicking on Start your Application button that will ask you to choose the Product you are interested for your SME.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="basicAccordionIconheadingTwo">
+                                            <section class="mb-0 mt-0">
+                                                <div role="menu" class="collapsed" data-toggle="collapse" data-target="#basicAccordionIconTwo" aria-expanded="false" aria-controls="basicAccordionIconTwo">
+                                                    <i class="las la-user font-20"></i> Step #2  <div class="icons"><i class="las la-angle-down"></i></div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div id="basicAccordionIconTwo" class="collapse" aria-labelledby="basicAccordionIconheadingTwo" data-parent="#toggleAccordionWithIcon">
+                                            <div class="card-body">
+                                                <blockquote class="blockquote text-right">
+                                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="basicAccordionIconheadingThree">
+                                            <section class="mb-0 mt-0">
+                                                <div role="menu" class="" data-toggle="collapse" data-target="#basicAccordionIconThree" aria-expanded="false" aria-controls="basicAccordionIconThree">
+                                                    <i class="las la-tree font-20"></i> Step #3 <div class="icons"><i class="las la-angle-down"></i></div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div id="basicAccordionIconThree" class="collapse show" aria-labelledby="basicAccordionIconheadingThree" data-parent="#toggleAccordionWithIcon">
+                                            <div class="card-body">
+                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                                <button class="btn btn-sm btn-primary mt-4">Continue</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 layout-spacing">
+                        <div class="widget widget-three add-project">
+                            <div class="iq-card dash-hover-gradient iq-card-block iq-card-stretch iq-card-height">
+                                <div class="iq-card-header d-flex justify-content-between border-0">
+                                    <div class="mb-0 font-size-32 text-dark">
+                                        <i class="las la-file-invoice-dollar font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="iq-card-body mt-4">
+                                    <h3>Docoument Management</h3>
+                                    <p class="mb-0">Upload your Supporting Documents</p>
+                                </div>
+                                <div class="card-action font-size-14 mt-3">
+                                    <span class="float-right">Documents Uploaded</span>
+                                    <i class="ri-timer-2-line"></i> 0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 layout-spacing">
+                        <div class="widget widget-three add-project">
+                            <div class="iq-card dash-hover-gradient iq-card-block iq-card-stretch iq-card-height">
+                                <div class="iq-card-header d-flex justify-content-between border-0">
+                                    <div class="mb-0 font-size-32 text-dark">
+                                        <i class="las la-headset font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="iq-card-body mt-4">
+                                    <h3>Customer Service</h3>
+                                    <p class="mb-0">Need Help? Our Support is one step away.</p>
+                                </div>
+                                <div class="card-action font-size-14 mt-3">
+                                    <span class="float-right">Support Tickets</span>
+                                    <i class="ri-timer-2-line"></i> 0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 layout-spacing">
+                        <div class="widget widget-three add-project">
+                            <div class="iq-card dash-hover-gradient iq-card-block iq-card-stretch iq-card-height">
+                                <div class="iq-card-header d-flex justify-content-between border-0">
+                                    <div class="mb-0 font-size-32 text-dark">
+                                        <i class="las la-user-shield font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="iq-card-body mt-4">
+                                    <h3>Request for Consult</h3>
+                                    <p class="mb-0">Our Financial Experts are here to help.</p>
+                                </div>
+                                <div class="card-action font-size-14 mt-3">
+                                    <span class="float-right">12 Jan 2022</span>
+                                    <i class="ri-timer-2-line"></i> 2:30pm
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 layout-spacing">
+                        <div class="row">
+
+
+                            <div class="col-md-12 mt-4">
+                                <div class="widget dashboard-table bg-light-info">
+                                    <div class="widget-content">
+                                        <a href="#" class="box">
+                                            <div class="box-body">
+                                                <span class="text-info font-45">
+                                                    <i class="las la-globe-americas"></i>
+                                                </span>
+                                                <div class="text-info stronger font-17 mb-2">Promo Code</div>
+                                                <div class="text-dark">Use the Code "TAM10OFF" to a 10% Discount on Order Upgrade</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Main Body Ends -->
+            <div class="responsive-msg-component">
+                <p>
+                    <a class="close-msg-component"><i class="las la-times"></i></a>
+                    Please reload the page to view the responsive functionalities
+                </p>
+            </div>
+            <!-- Copyright Footer Starts -->
+            <div class="footer-wrapper">
+                <div class="footer-section f-section-1">
+                    <p class="">Copyright © 2021 <a target="_blank" href="#">TAMAWAL Inc.</a>, All rights reserved.</p>
+                </div>
+                <div class="footer-section f-section-2">
+                    <p class="">Your Gateway to Optimal Financing <i class="las la-heart text-danger"></i></p>
+                </div>
+            </div>
+            <!-- Copyright Footer Ends -->
+            <!-- Arrow Starts -->
+            <div class="scroll-top-arrow" style="display: none;">
+                <i class="las la-angle-up"></i>
+            </div>
+            <!-- Arrow Ends -->
+        </div>
+        <!--  Content Area Ends  -->
+        <!--  Rightbar Area Starts -->
+        <div class="right-bar">
+            <div class="h-100">
+                <div class="simplebar-wrapper" style="margin: 0px;">
+                    <div class="simplebar-mask">
+                        <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                            <div class="simplebar-content-wrapper" style="height: 100%;">
+                                <div class="simplebar-content" style="padding: 0px;">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs nav-bordered nav-justified" role="tablist">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link  active" data-toggle="tab" href="#status-tab" role="tab" aria-selected="true">
+                                                <i class="las la-tasks"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    <!-- Tab panes starts -->
+                                    <div class="tab-content pt-0 rightbar-tab-container">
+
+                                        <div class="tab-pane active rightbar-tab" id="status-tab" role="tabpanel">
+                                            <h6 class="right-bar-heading p-2 px-3 mt-2 text-uppercase">Order Status </h6>
+                                            <div class="px-2">
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Order Success<span class="float-right">75%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Order Processing<span class="float-right">37%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Order Initiated<span class="float-right">52%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <h6 class="font-weight-medium px-3 mb-0 mt-4 text-uppercase">Payment Status</h6>
+                                            <div class="p-2">
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Payment Failed<span class="float-right">12%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Payment on hold<span class="float-right">67%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript: void(0);" class="text-reset item-hovered d-block p-2">
+                                                    <p class="text-muted mb-0">Payment Successful<span class="float-right">84%</span></p>
+                                                    <div class="progress mt-2" style="height: 4px;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 84%" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="text-center pt-2">
+                                                <a href="javascript: void(0);" class="btn btn-primary btn-sm">Show All</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Tab panes ends -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Rightbar Area Ends -->
+    </div>
+    <!-- Main Container Ends -->
+    <!-- Common Script Starts -->
+    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            App.init();
+        });
+    </script>
+    <script src="assets/js/custom.js"></script>
+    <!-- Common Script Ends -->
+    <!-- Page Level Plugin/Script Starts -->
+    <script src="assets/js/loader.js"></script>
+    <script src="plugins/apex/apexcharts.min.js"></script>
+    <script src="plugins/flatpickr/flatpickr.js"></script>
+    <script src="assets/js/dashboard/dashboard_1.js"></script>
+    <script src="assets/js/dashboard/dashboard_2.js"></script>
+    <script src="assets/js/dashboard/dashboard_3.js"></script>
+    <script src="assets/js/dashboard/dashboard_4.js"></script>
+    <script src="assets/js/dashboard/dashboard_5.js"></script>
+    <script src="plugins/counter/jquery.countTo.js"></script>
+    <script src="assets/js/components/custom-counter.js"></script>
+    <script src="assets/js/forms/multiple-step.js"></script>
+
+    <!-- Page Level Plugin/Script Ends -->
+</body>
+
+</html>
